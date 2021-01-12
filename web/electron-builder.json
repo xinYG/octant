@@ -21,6 +21,12 @@
     "!tsconfig.json",
     "!tslint.json"
   ],
+  "publish": [
+    {
+      "provider": "github",
+      "vPrefixedTagName": true
+    }
+  ],
   "nsis": {
     "differentialPackage": false
   },
