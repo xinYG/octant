@@ -42,8 +42,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           package_root: 'web'
           build_script_name: 'build-electron'
-      - uses: google-github-actions/upload-cloud-storage@main
-        with:
-          credentials: ${{ secrets.GOOGLE_APP_JSON }}
-          path: web/release
-          destination: octant-nightlies/electron
