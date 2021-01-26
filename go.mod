@@ -77,5 +77,4 @@ require (
 	k8s.io/kube-openapi v0.0.0-20200923155610-8b5066479488 // indirect
 	k8s.io/metrics v0.19.3
 	k8s.io/utils v0.0.0-20201015054608-420da100c033
-	sigs.k8s.io/yaml v1.2.0
 )
