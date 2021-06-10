@@ -22,3 +22,4 @@ steps:
 - task: whitesource.WhiteSource-azure-devops-services.bolt.wss.WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
+    directScan: true
