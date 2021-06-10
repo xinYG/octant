@@ -19,6 +19,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-- task: whitesource.WhiteSource-azure-devops-services.bolt.wss.WhiteSource
+- task: whitesource.WhiteSource-azure-devops-services.bolt.wss.WhiteSource@21
   inputs:
     cwd: '$(System.DefaultWorkingDirectory)'
